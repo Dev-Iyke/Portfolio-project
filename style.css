@@ -36,7 +36,7 @@ body {
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  padding-right: 20rem;
+  padding-right: 10rem;
 }
 
 #nav .nav--bar ul li {
@@ -72,7 +72,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10rem 15rem;
+  padding: 10rem 20rem;
   background-color: #16151c;
 }
 /* hero text */
@@ -213,4 +213,115 @@ footer .addr {
 footer p:hover {
   color: #fdf9d2;
   cursor: pointer;
+}
+
+/*********** story section **********/
+#story {
+  margin: 0% 20%;
+  background-color: white;
+
+}
+.text-large {
+  font-size: 5rem;
+  font-weight: medium;
+  color: #c5c5c6;
+  margin-top:20px ;
+}
+.text-large span {
+  color: #fff175;
+}
+
+.text-image-content {
+  display:flex;
+  justify-content: space-between;
+  gap: 4rem;
+  line-height: 2rem;
+  margin: 20px 0;
+
+  }
+
+.text-content {
+  background-color: #fff175;
+  border-radius: 1rem;
+  padding: 3rem;
+  font-size: 20px;
+}
+.story-subhed {
+  margin-bottom: 1rem;
+}
+
+.container .image {
+  justify-content: center;
+
+}
+
+#timeline-content ul {
+  justify-content: center;
+  border-left: 0.5rem solid #fff175;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  display: grid;
+  align-content: center;
+  list-style: none;
+
+
+}
+.timeline >li {
+position: relative;
+}
+
+.timeline >li::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -2.5rem;
+  width: 1.3rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: #fff175;
+}
+
+#timeline-content {
+  line-height: 1.5rem;
+
+}
+
+#timeline-content .event {
+  margin: 10px;
+}
+#timeline-content .t-head {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#timeline-content .t-subhd {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+#timeline-content .t-p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color:#464747
+  
+}
+
+.resume-button { 
+  text-align: right;
+  
+}
+
+.resume-button .btn{ 
+  font-size: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.story-line {
+margin: 2rem 0rem;
+border: 0.25rem solid #fff175;
+
 }
