@@ -1,0 +1,25 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';font-size: 22px;
+}
+
+#story {
+    margin: 5% 10% ;
+}
+
+.text-large {
+    font-size: 10rem;
+    font-weight: medium;
+    color: #c5c5c6;
+}
+.text-large span {
+    color: #fff175;
+}
