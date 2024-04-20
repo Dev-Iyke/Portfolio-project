@@ -9,15 +9,16 @@ body {
 
 body {
     font-family: 'Poppins';
+    margin: 5% 20% 
     
 }
 
 #story {
-    margin: 5% 10% ;
+    
 }
 
 .text-large {
-    font-size: 7rem;
+    font-size: 5rem;
     font-weight: medium;
     color: #c5c5c6;
 }
@@ -27,18 +28,49 @@ body {
 
 .text-image-content {
     display: flex;
-    justify-content: center;
-}
+    gap: 4rem;
+    margin: 1rem 0rem;
+    }
 
 .text-content {
     background-color: #fff175;
     border-radius: 1rem;
     padding: 3rem;
     font-size: 16px;
-    width: 40%;
     justify-content: center;
 }
 .image {
-    width: 35%;
     justify-content: center;
 }
+
+#timeline-content ul {
+
+
+    justify-content: center;
+    border-left: 0.5rem solid #fff175;
+    padding-left: 1rem;
+    padding-top: 1rem;
+
+    display: grid;
+    align-content: center;
+
+}
+.timeline >li {
+ position: relative;
+}
+
+.timeline >li::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -1.9rem;
+    width: 1.3rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #fff175;
+    mar
+}
+/* li::marker {
+    font-size: 2rem;
+    color: #fff175;
+} */
