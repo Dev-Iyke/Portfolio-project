@@ -317,7 +317,7 @@ position: relative;
   font-size: 1rem;
   position: absolute;
   top: 0px;
-  left: -12%;
+  left: -100px;
 }
 .resume-button { 
   text-align: right;
