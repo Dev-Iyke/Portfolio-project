@@ -125,13 +125,14 @@ body {
 
 /********** Hire me section **********/
 #hire {
+  padding-top: 30px;
   background-color: #16151c;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 #hire .hire-box {
-  width: 80%;
+  width: 65%;
   font-family: sans-serif;
   flex-direction: column;
   /*     border-bottom: .5rem solid #FDF9D2; */
@@ -263,6 +264,7 @@ footer p:hover {
   display: grid;
   align-content: center;
   list-style: none;
+  margin-left: 25%;
 
 
 }
@@ -287,7 +289,7 @@ position: relative;
 }
 
 #timeline-content .event {
-  margin: 10px;
+  margin: 10px ;
 }
 #timeline-content .t-head {
   font-size: 1.5rem;
@@ -305,10 +307,18 @@ position: relative;
 #timeline-content .t-p {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-  color:#464747
-  
+  color:#464747;
+  margin-right: 35%;
 }
 
+.year {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  position: absolute;
+  top: 0px;
+  left: -12%;
+}
 .resume-button { 
   text-align: right;
   
