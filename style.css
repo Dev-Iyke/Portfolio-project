@@ -9,7 +9,7 @@ body {
 
 body {
     font-family: 'Poppins';
-    margin: 5% 20% 
+    margin: 5% 10% 
     
 }
 
@@ -68,7 +68,7 @@ body {
     aspect-ratio: 1;
     border-radius: 50%;
     background-color: #fff175;
-    mar
+    
 }
 /* li::marker {
     font-size: 2rem;
