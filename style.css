@@ -8,7 +8,8 @@ body {
 }
 
 body {
-    font-family: 'Poppins';font-size: 22px;
+    font-family: 'Poppins';
+    
 }
 
 #story {
@@ -16,10 +17,28 @@ body {
 }
 
 .text-large {
-    font-size: 10rem;
+    font-size: 7rem;
     font-weight: medium;
     color: #c5c5c6;
 }
 .text-large span {
     color: #fff175;
+}
+
+.text-image-content {
+    display: flex;
+    justify-content: center;
+}
+
+.text-content {
+    background-color: #fff175;
+    border-radius: 1rem;
+    padding: 3rem;
+    font-size: 16px;
+    width: 40%;
+    justify-content: center;
+}
+.image {
+    width: 35%;
+    justify-content: center;
 }
